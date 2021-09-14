@@ -4,13 +4,11 @@ const GlobalStyles = createGlobalStyle`
 
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
-*{
+* {
 	box-sizing:border-box;
 	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
-html{
-	font-size:10px;
-}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -27,8 +25,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+	font-size: 10px;
 	vertical-align: baseline;
 	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
