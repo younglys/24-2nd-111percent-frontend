@@ -1,0 +1,54 @@
+{
+  "id": 1,
+  "img": [
+    {
+      "id": 1,
+      "name": "first",
+      "image": [
+        "https://cdn-media.8percent.kr/deal/4dopU01nFsPMbRvx5mQD4aSnrgmcDB_Deal_page1.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "second",
+      "image": [
+        "https://cdn-media.8percent.kr/deal/tCPBFtb58qT7Ek6x878H79oLlgL0D6_Deal_page2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "third",
+      "image": [
+        "https://cdn-media.8percent.kr/deal/yS8g0BKXozWzzK974jYL58M8KAoo4g_Deal_page3.jpg"
+      ]
+    }
+  ],
+  "name": "주거안정 406호 김포 장기동 한강현대성우오스타",
+  "grade_id": "A+",
+  "return_rate": 8.9,
+  "duration": 12,
+  "repayment_type_id": "만기일시",
+  "target_amount": 80000000,
+  "current_amount": 3600000,
+  "address": "경기도 남양주시 화도읍 차산리 875",
+  "completion_date": "2012년 5월",
+  "household": 388,
+  "supply_area": 147.29,
+  "private_area": 122.61,
+  "lease_status": "전월세",
+  "latitude": 37.33,
+  "longitude": 126.59,
+  "loan_type_id": "부동산 담보 대출",
+  "evaluation_price": 600000000,
+  "repayment_day": 25,
+  "recrutement_rate": 67.6,
+  "credit_score": 664,
+  "income_type": "근로소득자",
+  "income": 1740000,
+  "loan_amount": 400000000,
+  "is_overdue": "해당 없음",
+  "overdue_tax": "해당 없음",
+  "card_usage_amount": 780000,
+  "priority_bond_amount": 400000000,
+  "bidding_rate": 119.55
+}
