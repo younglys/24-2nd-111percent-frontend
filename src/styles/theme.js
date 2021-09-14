@@ -1,4 +1,4 @@
-export const theme = {
+const theme = {
   black: '#1D2024',
   purple: '#6741D9',
   gray: '#4B525A',
@@ -9,3 +9,5 @@ export const theme = {
   middleFont: '1.6rem',
   smallFont: '1.4rem',
 };
+
+export default theme;
