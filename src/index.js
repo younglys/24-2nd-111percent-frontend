@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Routes from './Routes';
 import GlobalStyles from './styles/GlobalStyles';
 import { ThemeProvider } from 'styled-components';
-import Routes from './Routes';
 import theme from './styles/theme';
 
 ReactDOM.render(

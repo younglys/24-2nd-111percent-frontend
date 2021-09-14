@@ -25,7 +25,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 10px;
+	font-size:10px;
 	vertical-align: baseline;
 	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
