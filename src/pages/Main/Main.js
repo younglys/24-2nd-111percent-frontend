@@ -1,12 +1,7 @@
 import React from 'react';
 
 function Main() {
-  return (
-    <div>
-      <h1>Main</h1>
-      <button>d</button>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Main;
