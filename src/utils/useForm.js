@@ -22,6 +22,7 @@ function useForm({ initialValues, onSubmit, validate }) {
   useEffect(() => {
     if (submitting) {
       if (Object.keys(errors).length === 0) {
+        console.log(errors);
         onSubmit(values);
       }
       setSubmitting(false);
