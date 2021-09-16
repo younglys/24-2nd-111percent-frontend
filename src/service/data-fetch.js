@@ -46,13 +46,15 @@ class fetchData {
   }
 
   async kakaoLogin(authObj) {
+    const HEADERS = {
+      'Content-Type': 'application/json',
+      Authorization: authObj.access_token,
+    };
+
     const response = await axios.post(
-      'http://10.58.1.169:8000/users/signin/kakao',
-      {
-        headers: {
-          Authorization: authObj.access_token,
-        },
-      }
+      'http://10.58.3.237:8000/users/signin/kakao',
+      null,
+      { headers: HEADERS }
     );
     const result = response.data;
     return result;

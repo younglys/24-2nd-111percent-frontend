@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import DetailMain from './DetailMain/DetailMain';
 import Disclaimer from './Disclaimer';
 import styled from 'styled-components';
+import axios from 'axios';
 import fetchData from '../../service/data-fetch';
 
 function Detail() {

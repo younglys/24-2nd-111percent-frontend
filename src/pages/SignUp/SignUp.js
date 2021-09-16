@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { useHistory, useLocation } from 'react-router';
-import useForm from './useForm';
-import validate from './Validate';
+import useForm from '../../utils/useForm';
+import validate from '../../utils/Validate';
 import styled from 'styled-components';
 import axios from 'axios';
 import fetchData from '../../service/data-fetch';
@@ -34,7 +34,7 @@ function SignUp() {
     validate,
   });
 
-  //카카오 로그인 시 기본적으로 받아오는 요소들
+  //  카카오 로그인 시 기본적으로 받아오는 요소들
   const kakaoMail =
     location.state.user_email === (null || undefined)
       ? null
