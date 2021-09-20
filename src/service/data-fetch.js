@@ -33,7 +33,41 @@ class fetchData {
       }
     );
     const result = response.data;
-    console.log(amount);
+    return result;
+  }
+
+  async logIn(email, password) {
+    const response = await axios.post('http://10.58.1.169:8000/users/signin', {
+      email: email,
+      password: password,
+    });
+    const result = response.data;
+    return result;
+  }
+
+  async kakaoLogin(authObj) {
+    const response = await axios.post(
+      'http://10.58.1.169:8000/users/signin/kakao',
+      {
+        headers: {
+          Authorization: authObj.access_token,
+        },
+      }
+    );
+    const result = response.data;
+    return result;
+  }
+
+  async signUp(refs) {
+    const response = await axios.post('http://10.58.1.169:8000/users/signup', {
+      name: refs.name,
+      email: refs.email,
+      password: refs.password,
+      phone_number: refs.phone_number,
+      bank_name: refs.bank_name,
+      account_number: refs.account_number,
+    });
+    const result = response.data;
     return result;
   }
 }
