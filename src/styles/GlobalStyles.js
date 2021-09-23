@@ -35,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-size:10px;
 	line-height: 1;
 }
 ol, ul {
