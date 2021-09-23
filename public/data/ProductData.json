@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "img": "https://cdn-media.8percent.kr/deal/41825/q8WwDF956WUvYXf4alRoqkZJnBmMUT_Deal_main.jpg",
+    "deal_progress": 81,
+    "title": "주거안정 408호 부천 중동 팰리스카운티",
+    "deal_rate": 8.7,
+    "redemption_period": 12,
+    "transaction_amount": 5000
+  },
+  {
+    "id": 2,
+    "img": "https://cdn-media.8percent.kr/deal/41799/gjWIzPL7ACRSeC8SEomMD3MVr95eJ7_Deal_main.jpg",
+    "deal_progress": 16,
+    "title": "주거안정 406호 김포 장기동 한강현대성우오스타",
+    "deal_rate": 8.9,
+    "redemption_period": 12,
+    "transaction_amount": 8000
+  },
+  {
+    "id": 3,
+    "img": "https://cdn-media.8percent.kr/deal/41754/HzF3doy596GOElQbPSFg5jS1Tl2kKK_Deal_main.jpg",
+    "deal_progress": 16,
+    "title": "주거안정 405호 남양주 화도읍 신창현풍림아이원",
+    "deal_rate": 8.9,
+    "redemption_period": 12,
+    "transaction_amount": 7000
+  },
+  {
+    "id": 4,
+    "img": "https://cdn-media.8percent.kr/deal/41730/iiVq8EpF94KCDGvR5Jg5X9eQXF699G_deal_main.jpg",
+    "deal_progress": 16,
+    "title": "내집마련 14호 장위동 래미안장위포레카운티",
+    "deal_rate": 8.1,
+    "redemption_period": 12,
+    "transaction_amount": 10000
+  },
+  {
+    "id": 5,
+    "img": "https://cdn-media.8percent.kr/deal/41709/r7xoOci8a5QAuXN3aspef0clK8cZRg_Deal_main.jpg",
+    "deal_progress": 25,
+    "title": "주거안정 401호 화성시 병점동 병점역아이파크캐슬",
+    "deal_rate": 8.9,
+    "redemption_period": 12,
+    "transaction_amount": 20000
+  },
+  {
+    "id": 6,
+    "img": "https://cdn-media.8percent.kr/deal/41559/5oVkYtRNuKqFvQc05qCOHHZ5nLyUEG_Deal_main.jpg",
+    "deal_progress": 43,
+    "title": "주거안정 389호 신내동 중앙하이츠아파트",
+    "deal_rate": 8.7,
+    "redemption_period": 12,
+    "transaction_amount": 19000
+  },
+  {
+    "id": 7,
+    "img": "https://cdn-media.8percent.kr/deal/41825/q8WwDF956WUvYXf4alRoqkZJnBmMUT_Deal_main.jpg",
+    "deal_progress": 81,
+    "title": "주거안정 408호 부천 중동 팰리스카운티",
+    "deal_rate": 8.7,
+    "redemption_period": 12,
+    "transaction_amount": 5000
+  },
+  {
+    "id": 8,
+    "img": "https://cdn-media.8percent.kr/deal/41799/gjWIzPL7ACRSeC8SEomMD3MVr95eJ7_Deal_main.jpg",
+    "deal_progress": 16,
+    "title": "주거안정 406호 김포 장기동 한강현대성우오스타",
+    "deal_rate": 8.9,
+    "redemption_period": 12,
+    "transaction_amount": 8000
+  },
+  {
+    "id": 9,
+    "img": "https://cdn-media.8percent.kr/deal/41754/HzF3doy596GOElQbPSFg5jS1Tl2kKK_Deal_main.jpg",
+    "deal_progress": 16,
+    "title": "주거안정 405호 남양주 화도읍 신창현풍림아이원",
+    "deal_rate": 8.9,
+    "redemption_period": 12,
+    "transaction_amount": 7000
+  },
+  {
+    "id": 10,
+    "img": "https://cdn-media.8percent.kr/deal/41730/iiVq8EpF94KCDGvR5Jg5X9eQXF699G_deal_main.jpg",
+    "deal_progress": 16,
+    "title": "내집마련 14호 장위동 래미안장위포레카운티",
+    "deal_rate": 8.1,
+    "redemption_period": 12,
+    "transaction_amount": 10000
+  },
+  {
+    "id": 11,
+    "img": "https://cdn-media.8percent.kr/deal/41709/r7xoOci8a5QAuXN3aspef0clK8cZRg_Deal_main.jpg",
+    "deal_progress": 25,
+    "title": "주거안정 401호 화성시 병점동 병점역아이파크캐슬",
+    "deal_rate": 8.9,
+    "redemption_period": 12,
+    "transaction_amount": 20000
+  },
+  {
+    "id": 12,
+    "img": "https://cdn-media.8percent.kr/deal/41559/5oVkYtRNuKqFvQc05qCOHHZ5nLyUEG_Deal_main.jpg",
+    "deal_progress": 43,
+    "title": "주거안정 389호 신내동 중앙하이츠아파트",
+    "deal_rate": 8.7,
+    "redemption_period": 12,
+    "transaction_amount": 19000
+  }
+]

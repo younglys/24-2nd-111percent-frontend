@@ -72,6 +72,14 @@ class fetchData {
     const result = response.data;
     return result;
   }
+
+  async listView() {
+    const response = await axios.get(
+      'http://10.58.7.126:8000/investments/listview'
+    );
+    const result = response.data;
+    return result;
+  }
 }
 
 export default fetchData;

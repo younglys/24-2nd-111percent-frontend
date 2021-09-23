@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "img": "https://cdn-media.8percent.kr/deal/41825/q8WwDF956WUvYXf4alRoqkZJnBmMUT_Deal_main.jpg",
+    "title": "부천 중동 팰리스카운티",
+    "deal_rate": 8.7,
+    "grade": "A+",
+    "redemption_period": 12,
+    "transaction_amount": "5,000",
+    "bgColor": "#3A5E9D"
+  },
+  {
+    "id": "2",
+    "img": "https://cdn-media.8percent.kr/deal/41799/gjWIzPL7ACRSeC8SEomMD3MVr95eJ7_Deal_main.jpg",
+    "title": "김포 장기동 한강현대성우오스타",
+    "deal_rate": 8.9,
+    "grade": "A+",
+    "redemption_period": 12,
+    "transaction_amount": 8000,
+    "bgColor": "#628F92"
+  },
+  {
+    "id": "3",
+    "img": "https://cdn-media.8percent.kr/deal/41754/HzF3doy596GOElQbPSFg5jS1Tl2kKK_Deal_main.jpg",
+    "title": "남양주 화도읍 신창현풍림아이원",
+    "deal_rate": 8.9,
+    "grade": "A+",
+    "redemption_period": 12,
+    "transaction_amount": 7000,
+    "bgColor": "#A3B9D3"
+  },
+  {
+    "id": "4",
+    "img": "https://cdn-media.8percent.kr/deal/41730/iiVq8EpF94KCDGvR5Jg5X9eQXF699G_deal_main.jpg",
+    "title": "장위동 래미안장위포레카운티",
+    "deal_rate": 8.1,
+    "grade": "A+",
+    "redemption_period": 12,
+    "transaction_amount": 10000,
+    "bgColor": "#834C4C"
+  },
+  {
+    "id": "5",
+    "img": "https://cdn-media.8percent.kr/deal/41709/r7xoOci8a5QAuXN3aspef0clK8cZRg_Deal_main.jpg",
+    "title": "화성시 병점동 병점역아이파크캐슬",
+    "deal_rate": 8.9,
+    "grade": "A+",
+    "redemption_period": 12,
+    "transaction_amount": 20000,
+    "bgColor": "#8B9C5A"
+  }
+]
