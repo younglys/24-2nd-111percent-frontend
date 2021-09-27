@@ -1,0 +1,98 @@
+{
+  "results": {
+    "deposit_information": {
+      "withdrawal_account": "신한은행11123-2255222-3333",
+      "deposit_account": "농협은행30109368817182",
+      "deposit_balance": 210303
+    },
+
+    "investment_general_information": {
+      "rate_of_return": 8.9,
+      "assets": 810303,
+      "cumulative_profit": 346
+    },
+
+    "investment_current_condition": {
+      "all": [
+        {
+          "id": 1,
+          "name": "investing_amount",
+          "price": 600000
+        },
+        {
+          "id": 2,
+          "name": "invest_completed_amount",
+          "price": null
+        },
+        {
+          "id": 3,
+          "name": "loss_amount",
+          "price": null
+        }
+      ],
+      "investing": [
+        {
+          "id": 1,
+          "name": "investing_normal_amount",
+          "price": 600000
+        },
+        {
+          "id": 2,
+          "name": "investing_delay_amount",
+          "price": null
+        },
+        {
+          "id": 3,
+          "name": "investing_overdue_amount",
+          "price": null
+        }
+      ]
+    },
+    "portfolio_current_condition": {
+      "grade": [
+        {
+          "id": 1,
+          "name": "A",
+          "price": 600000
+        },
+        {
+          "id": 2,
+          "name": "B",
+          "price": null
+        },
+        {
+          "id": 3,
+          "name": "C",
+          "price": null
+        },
+        {
+          "id": 4,
+          "name": "D",
+          "price": null
+        }
+      ],
+      "return_rate": [
+        {
+          "id": 1,
+          "name": "8_under",
+          "price": null
+        },
+        {
+          "id": 2,
+          "name": "8_over_or_equal",
+          "price": 600000
+        },
+        {
+          "id": 3,
+          "name": "10_over_or_equal",
+          "price": null
+        },
+        {
+          "id": 4,
+          "name": "12_over_or_equal",
+          "price": null
+        }
+      ]
+    }
+  }
+}

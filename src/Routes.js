@@ -21,6 +21,7 @@ class Routes extends Component {
           <Route exact path="/list" component={List} />
           <Route exact path="/myInfo" component={MyInfo} />
           <Route exact path="/detail/:id" component={Detail} />
+          <Route exact path="/myInfo" component={MyInfo} />
         </Switch>
         <Footer />
       </Router>
