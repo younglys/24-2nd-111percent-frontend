@@ -1,13 +1,22 @@
-import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import { FaUser } from 'react-icons/fa';
 
 function Nav() {
   const history = useHistory();
+  const location = useLocation();
+  const [isLogin, setLogin] = useState(false);
+
+  useEffect(() => {
+    if (localStorage.getItem('token')) {
+      setLogin(true);
+    }
+  }, [location.pathname]);
 
   const handleLogout = () => {
     localStorage.removeItem('token');
+    setLogin(false);
     history.push('/');
     alert('로그아웃되었습니다.');
   };
@@ -41,25 +50,22 @@ function Nav() {
               </BoardLink>
               <BoardLink href="#">사업공시</BoardLink>
             </BoardContainer>
-
-            <NavBtnContainer>
-              {localStorage.getItem('token') ? (
-                <>
-                  <UserWrapper onClick={() => history.push('/myInfo')}>
-                    <UserIcon />
-                    <UserName>투자현황</UserName>
-                  </UserWrapper>
-                  <Button onClick={handleLogout}>로그아웃</Button>
-                </>
-              ) : (
-                <>
-                  <Button onClick={() => history.push('/logIn')}>로그인</Button>
-                  <Button onClick={() => history.push('/signUp')}>
-                    회원가입
-                  </Button>
-                </>
-              )}
-            </NavBtnContainer>
+            {isLogin ? (
+              <NavBtnContainer>
+                <UserWrapper onClick={() => history.push('/myInfo')}>
+                  <UserIcon />
+                  <UserName>투자현황</UserName>
+                </UserWrapper>
+                <Button onClick={handleLogout}>로그아웃</Button>
+              </NavBtnContainer>
+            ) : (
+              <NavBtnContainer>
+                <Button onClick={() => history.push('/logIn')}>로그인</Button>
+                <Button onClick={() => history.push('/signUp')}>
+                  회원가입
+                </Button>
+              </NavBtnContainer>
+            )}
           </BoardBtnContainer>
         </Wrapper>
       </Container>
