@@ -9,7 +9,7 @@ function Aside({ investingTab, accountNumber, depositPuls, setDepositPuls }) {
       method: 'POST',
       headers: {
         Authorization:
-          'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Mn0._fleYhEIx5512GwejJ70cid7blXOsKEmcbf5zeHBHtA',
+          'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.jI8pFUQQxu7e--phkPUczn3a6f9k_8NYeg8njqtVKKg          ',
       },
       body: JSON.stringify({
         amounts: Number(depositValue),
