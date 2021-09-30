@@ -15,7 +15,7 @@ function MyInfo() {
       method: 'GET',
       headers: {
         Authorization:
-          'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6Mn0._fleYhEIx5512GwejJ70cid7blXOsKEmcbf5zeHBHtA',
+          'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.jI8pFUQQxu7e--phkPUczn3a6f9k_8NYeg8njqtVKKg          ',
       },
     })
       .then(res => res.json())
@@ -30,7 +30,7 @@ function MyInfo() {
       method: 'GET',
       headers: {
         Authorization:
-          'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.AuY-wS_swloja_rpJAgCfaHccsAcpU8HS5GOjs9p6Zs',
+          'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MX0.jI8pFUQQxu7e--phkPUczn3a6f9k_8NYeg8njqtVKKg          ',
       },
     })
       .then(res => res.json())

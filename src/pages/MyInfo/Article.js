@@ -4,7 +4,6 @@ import DoughnutContainerAllTab from './DoughnutContainerAllTab';
 import DoughnutContainerInvestingTab from './DoughnutContainerInvestingTab';
 import PortfolioContainerRankTab from './PortfolioContainerRankTab';
 import PortfolioContainerYieldTab from './PortfolioContainerYieldTab';
-import PortfolioContainerGoodsTab from './PortfolioContainerGoodsTab';
 
 function Article({
   deposit,
