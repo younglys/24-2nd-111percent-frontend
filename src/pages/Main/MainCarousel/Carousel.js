@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import useCurrency from '../../../utils/useCurrency';
 
 const Carousel = ({ product, bgColorId }) => {
@@ -29,14 +29,14 @@ const Carousel = ({ product, bgColorId }) => {
             {handleCurrency(product.target_amount)}
             <Won>원</Won>
           </DealEarningAmount>
-          <Button
-            onClick={() => {
-              history.push(`/detail/${product.id}`);
-            }}
-          >
-            상품 보러가기
-          </Button>
         </DealInfo>
+        <Button
+          onClick={() => {
+            history.push(`/detail/${product.id}`);
+          }}
+        >
+          상품 보러가기
+        </Button>
       </DealDescription>
       <ImgWrapper>
         <ProductImg src={product.image} />
@@ -65,7 +65,7 @@ const DealDescription = styled.div`
 const ProductTitle = styled.h1`
   font-size: 3em;
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.07em;
 `;
 
 const DealRate = styled.span`
@@ -74,12 +74,12 @@ const DealRate = styled.span`
 `;
 
 const Percentage = styled.span`
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 700;
 `;
 
-const DealInfo = styled.span`
-  margin-top: 1.6rem;
+const DealInfo = styled.div`
+  margin-top: 1.8rem;
 `;
 
 const ProductGrade = styled.span`
@@ -100,15 +100,15 @@ const Won = styled.span`
 `;
 
 const Button = styled.button`
-  width: 100px;
-  padding: 15px 0;
+  width: 110px;
+  padding: 13px 0;
   border-radius: 5px;
   color: ${props => props.theme.gray};
   background-color: #fff;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 3.5rem;
   box-shadow: 0 3px 8px ${props => props.theme.gray};
 
   &:hover {
