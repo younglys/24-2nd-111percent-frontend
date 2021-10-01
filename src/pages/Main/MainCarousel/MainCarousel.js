@@ -48,11 +48,11 @@ const CarouselWrapper = styled.div`
 
 const StyledSlider = styled(Slider)`
   .slick-next {
-    right: 80px;
+    right: 70px;
   }
 
   .slick-prev {
-    left: 80px;
+    left: 70px;
     z-index: 1;
   }
 `;
