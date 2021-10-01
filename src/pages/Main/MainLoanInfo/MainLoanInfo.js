@@ -36,7 +36,7 @@ const Container = styled.section`
 `;
 
 const Date = styled.p`
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 2.4em;
   color: ${props => props.theme.black};
   text-align: center;

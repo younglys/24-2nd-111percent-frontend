@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ProductCard from './ProductCard';
 import MainLoanInfo from '../MainLoanInfo/MainLoanInfo';
-import fetchData from '../../../service/data-fetch';
+import axios from 'axios';
 
 class ProductList extends React.Component {
   constructor() {
@@ -16,8 +16,16 @@ class ProductList extends React.Component {
   }
 
   componentDidMount() {
-    this.getData();
-    window.addEventListener('scroll', this.infiniteScroll);
+    axios.get('http://10.58.1.217:8000/investments').then(res => {
+      this.setState({
+        initialList: res.data.investments,
+        productList: res.data.investments.slice(0, this.state.items),
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      this.infiniteScroll();
+    });
   }
 
   componentWillUnmount() {
@@ -26,20 +34,10 @@ class ProductList extends React.Component {
 
   componentDidUpdate = (prevProps, prevState) => {
     if (this.state.items !== prevState.items) {
-      this.getData();
-    }
-  };
-
-  getData = () => {
-    const data = new fetchData();
-    const { initialItems, items, productList } = this.state;
-
-    data.listView().then(res => {
-      const result = res.investments.slice(initialItems, items);
       this.setState({
-        productList: [...productList, ...result],
+        productList: [...this.state.initialList.slice(0, this.state.items)],
       });
-    });
+    }
   };
 
   infiniteScroll = () => {
@@ -50,33 +48,24 @@ class ProductList extends React.Component {
       document.body.scrollHeight
     );
 
-    let scrollTop = Math.ceil(
-      Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+    let scrollTop = Math.max(
+      document.documentElement.scrollTop,
+      document.body.scrollTop
     );
 
     let clientHeight = document.documentElement.clientHeight;
-    console.log('1', scrollTop);
-    console.log('2', clientHeight);
-    console.log('3', scrollHeight);
 
-    // if (scrollTop > clientHeight - 416) {
-    //   this.setState({
-    //     initialItems: items,
-    //     items: items + 6,
-    //   });
-    // }
-
-    if (scrollTop + clientHeight >= scrollHeight) {
-      this.setState({
-        initialItems: items,
-        items: items + 6,
-      });
+    if (scrollTop + clientHeight > scrollHeight - 416) {
+      this.state.items < 20 &&
+        this.setState({
+          initialItems: items,
+          items: items + (items === 18 ? 2 : 6),
+        });
     }
   };
 
   render() {
     const { productList } = this.state;
-
     return (
       <>
         <ProductContainer>
@@ -96,14 +85,13 @@ class ProductList extends React.Component {
 const ProductContainer = styled.div`
   max-width: 1080px;
   margin: 0 auto;
-  margin-top: 6rem;
 `;
 
 const Header = styled.p`
   font-size: 1.8em;
   font-weight: 700;
   color: ${props => props.theme.black};
-  margin-bottom: 20px;
+  margin: 30px 0;
 `;
 
 const ProductWrapper = styled.div`

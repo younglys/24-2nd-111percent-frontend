@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import MainCarousel from './MainCarousel/MainCarousel';
 import ProductList from './ProductList/ProductList';
 import fetchData from '../../service/data-fetch';
@@ -15,6 +16,9 @@ const Main = props => {
 
   return (
     <>
+      <Helmet>
+        <title>111percent_%</title>
+      </Helmet>
       {products && <MainCarousel items={products} />}
       {products && <ProductList items={products} />}
     </>
