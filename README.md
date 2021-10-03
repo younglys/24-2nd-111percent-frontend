@@ -1,4 +1,5 @@
 # 8percent
+<img width="1680" alt="스크린샷 2021-10-01 오후 2 11 53" src="https://user-images.githubusercontent.com/76423949/135737600-91587c29-3efb-4ea8-b8f0-c83d3467679f.png">
 
 개인투자자가 소액으로 가능한 P2P 투자사이트 "8percent"를 클론 코딩 해보았습니다.
 
